@@ -1,0 +1,360 @@
+
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.menu{
+    background-color: rgba(255, 139, 67, 0.975);
+    padding: 20px;
+    width: 97%;
+}
+
+/* about us cSS */
+
+.about-us{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-us-img{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pragraph1 {
+    text-align: center;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    margin: 0 20%;
+}
+
+.pragraph2 {
+    text-align: center;
+    color: #0e0c80;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    word-spacing: 0%;
+    line-height: 12px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-cat{
+    width: 100%;
+    height: 80%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+    padding-right: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #0f029f;
+    text-decoration: none;
+}
+a:hover{
+    color: #064ae9;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #2100c8;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #0048ff;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+fieldset{
+    border: 1px solid black;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.cond{
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+}
+
+.cond legend{
+    font-size: 40px;
+    width: auto;
+    margin-left: 90%;
+}
+
+.cond li{
+    font-weight:bold;
+    text-align:right;
+    direction:rtl;
+    padding: 15px;
+    font-size: 28px;
+}
+
+
+.success{
+    padding:2% ;
+    color:#2ed573;
+}
+
+.error{
+    padding:2% ;
+    color: #ff4757;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Product SEarch Section */
+
+.tech-search{
+    background-image: url(../images/search-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    background-size: 100%;
+}
+
+.tech-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    width: 98%;
+    text-align:center;
+    margin: 0 auto;
+    background-color: #ececec;
+    border: 2px solid black;
+}
+
+.box-3{
+    width: 40%;
+    height: 350px;
+    float: left;
+    margin: 2%;
+}
+
+
+
+/* CSS for Product Menu */
+.product-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.product-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.product-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.product-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.product-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.product-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social{
+    background-color: rgba(255, 139, 67, 0.975);
+}
+.footer{
+    background-color: rgba(255, 139, 67, 0.975);  
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0048ff;
+    padding: 10px;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .product-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .product-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .product-menu{
+        padding: 20% 0;
+    }
+
+    .product-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
